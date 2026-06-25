@@ -13,13 +13,12 @@ from io import StringIO
 
 # --- App Configuration ---
 st.set_page_config(
-    page_title="VAYUSAT-1 Advanced Ground Control",
-    page_icon="🚀",
+    page_title="VAYUSAT-1 Advanced Ground Control",,
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-st.title("🚀 VAYUSAT-1 Mission Control Center")
+st.title("VAYUSAT-1 Mission Control Center")
 st.markdown("""
 Welcome to the **VAYUSAT-1 Ground Control Dashboard**. 
 Monitor real-time telemetry, track launch range safety, simulate aerodynamic stability, and analyze post-flight logs.
@@ -28,10 +27,10 @@ Monitor real-time telemetry, track launch range safety, simulate aerodynamic sta
 
 # --- Create Main Feature Tabs (Inspired by your Cosmic Ray Dashboard) ---
 tabs = st.tabs([
-    "🛰️ Live Telemetry", 
-    "🗺️ Range Safety & Tracking", 
-    "🧮 PD Controller Simulation", 
-    "📊 Post-Flight Log Analyzer"
+    "Live Telemetry", 
+    "Range Safety & Tracking", 
+    "PD Controller Simulation", 
+    "Post-Flight Log Analyzer"
 ])
 
 # ==========================================
