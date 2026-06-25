@@ -13,7 +13,7 @@ from io import StringIO
 
 # --- App Configuration ---
 st.set_page_config(
-    page_title="VAYUSAT-1 Advanced Ground Control",,
+    page_title="VAYUSAT-1 Advanced Ground Control",
     layout="wide",
     initial_sidebar_state="expanded"
 )
